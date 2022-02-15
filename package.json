@@ -1,0 +1,22 @@
+{
+  "name": "meu-endereco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "verbose": true
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-jest": "^24.9.0",
+    "axios": "^0.26.0",
+    "jest": "^27.5.1"
+  }
+}
